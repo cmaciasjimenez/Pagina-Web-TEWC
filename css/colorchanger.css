@@ -1,0 +1,10 @@
+/* COLOR CHANGER */
+#colorchanger { 
+	float:left;
+	margin-top: 180px; }
+.colorbox { width:20px; height:20px; border:1px solid #d50002; float:left; margin:5px; cursor:pointer; display:block; }
+.coloralternative { background-color:#ffffff; }
+.coloralternative:hover { background-color:#ffffcc; }
+.colordark { background-color:#000000; }
+.colordark:hover { background-color:#404040; }
+

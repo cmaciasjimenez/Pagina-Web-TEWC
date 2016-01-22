@@ -1,0 +1,131 @@
+/* IMPORTS ------------------------------------------------------------*/
+
+@import url('styleAlt.css');
+
+/* GENERAL ------------------------------------------------------------*/
+
+body{
+	background: #f9f7e8 url(../img/imgAlt/alt/bg-alt3.gif) repeat;
+	background-position: center;
+	 /*background: url(../img/rhythm-21.gif); */
+}
+
+
+.color2{
+	color: #d50002;
+}
+
+
+div.comments ol.comments-list li:nth-child(odd){
+	background: #faf9f5;
+}
+
+div.comments ol.comments-list li p.meta{
+	color: #989281;
+}
+
+div.comments ol.comments-list li p.meta span{
+	color: #e1820b;
+}
+
+
+/* imgs ------------------------------------------------------------*/
+
+div#posts div.post a.more,
+div.holder div.block a.more{
+	background: url(../img/imgAlt/alt/more-button.png) no-repeat;
+}
+
+
+
+div#posts div.post p.post-comments,
+div#posts div.single p.post-comments,
+div#posts div.comments p.post-comments{
+	background: url(../img/imgAlt/alt/comments-balloon.png) no-repeat;
+	color: white;
+}
+
+
+/* PAGER ------------------------------------------------------------*/
+
+
+ul.pager li{
+	display: block;
+	width:13px;
+	height: 13px;
+	float: left;
+	background: url(../img/imgAlt/alt/pager.png) no-repeat;
+	background-position: -18px 0px;
+	margin-left: 5px;
+}
+
+ul.pager li:hover,
+ul.pager li.active{
+	background-position: -38px 0px;
+}
+
+ul.pager li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-indent: -9000px;
+}
+
+ul.pager li:first-child{
+	background-position: 0px 0px;
+}
+
+ul.pager li:last-child{
+	background-position: -59px 0px;
+}
+
+
+/* HEADER ------------------------------------------------------------*/
+
+div#header{
+	background: none;
+}
+
+ul#nav li a{
+	color: #323232;
+}
+
+ul#nav li a:hover{
+	color: #000000;
+}
+
+
+/* FOOTER ------------------------------------------------------------*/
+
+
+div#footer{
+	background: url(../img/imgAlt/alt/footer-bg.png) repeat-x #777264 top center;
+}
+
+div#footer ul#follow li p{
+	color: #f2f0f0;
+}
+
+
+div#footer div.footer-cols ul li a{
+	color: #ffffff;
+}
+
+div#footer div.footer-cols ul li a:hover{
+	color: #b8b6aa;
+}
+
+div#footer div.footer-cols ul li:first-child a{
+	color: #d50002;
+}
+
+
+div#footer div.footer-bottom p.legal{
+	color: #b8b6aa;
+}
+
+
+
+
+
+
